@@ -1,6 +1,9 @@
 {
-  "name": "react-client",
-  "private": true,
+  "name": "@nicobossi/api-client-library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicobossi/api-client-library.git"
+  },
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,6 +11,9 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "peerDependencies": {
     "axios": "^1.16.0",
